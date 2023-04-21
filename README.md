@@ -6,9 +6,13 @@ Supplementary material and codes used to perform a simulation study and data ana
 The folder 'Data Analysis' contains codes to perform the data analysis of the three real world data sets.
 
 &nbsp;&nbsp;&nbsp;&nbsp;-> The folder 'DK' contains Python codes for the delayed kernel models
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> The folder 'ModelA' contains the model A codes for the three datasets
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> The folder 'ModelB' contains the model B codes for the three datasets
+
 &nbsp;&nbsp;&nbsp;&nbsp;-> The folder 'JM_LM' contains the R codes for the joint models (JM) and landmarking models (LM)
+
 &nbsp;&nbsp;&nbsp;&nbsp;-> The folder 'Plotting' contains a Python code to average over the cross validation iterations for all models and plot the results
 
 ## Simulation
