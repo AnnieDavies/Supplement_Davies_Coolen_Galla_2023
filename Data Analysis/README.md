@@ -51,3 +51,11 @@ The results for the fixed base time and fixed prediction window analyses are sav
 An average over the iterations (along with the retarded kernel results) was performed subsequently using the Python code Plot_Average.py (in Plotting folder).  
 
 Details of the models fitted and the analysis performed is given in the manuscript 'Delayed kernels for longitudinal survival analysis and dynamic prediction', Davies, Coolen and Galla (2023). 
+
+## Plotting
+
+The folder 'Plotting' contains the Python code Plot_Average.py that reads in the vectors of prediction error for each model (fixed base time and fixed prediction window) at each iteration and averages over the iterations. It then plots the data analysis figures in the paper. 
+
+We get NA for JM models when base time t = prediction time u (i.e. the first iteration of the fixed base time analysis). The code treats this as zero (all other models have PE=0 at this point). 
+
+The same code can be used for all data sets by editing the files that are read in.
