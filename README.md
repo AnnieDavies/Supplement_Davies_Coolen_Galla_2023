@@ -18,14 +18,18 @@ The folder 'Data Analysis' contains codes to perform the data analysis of the th
 ## Simulation
 
 The folder 'Simulation' contains codes to perform the simualtion study.
-  -> The folder 'DK' contains Python codes to read in the simulated data and perform the delayed kernel models
-  -> The folder 'JM_LM' contains R codes to simulate data from a JM (scenarios 1 and 2) and to perform the joint models and landmarking models. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;-> The folder 'DK' contains Python codes to read in the simulated data and perform the delayed kernel models
+
+&nbsp;&nbsp;&nbsp;&nbsp;-> The folder 'JM_LM' contains R codes to simulate data from a JM (scenarios 1 and 2) and to perform the joint models and landmarking models. 
   
 ## Edited PE functions
 
 The folder 'Edited PE functions' contains the edited versions of prediction error functions from the JMbayes packages:
-  -> PE.AD.JM2.R edited version of the tvBrier() function in the JMbayes2 package. Original code copied from https://github.com/drizopoulos/JMbayes2/tree/master/R/accuracy_measure.R.
-  -> PE.AD.coxph.R edited version of prederrJM() for coxph objects in the JMbayes package. Original code copied from https://github.com/drizopoulos/JMbayes/tree/master/R/prederrJM.coxph.R
+
+&nbsp;&nbsp;&nbsp;&nbsp;-> PE.AD.JM2.R edited version of the tvBrier() function in the JMbayes2 package. Original code copied from https://github.com/drizopoulos/JMbayes2/tree/master/R/accuracy_measure.R.
+
+&nbsp;&nbsp;&nbsp;&nbsp;-> PE.AD.coxph.R edited version of prederrJM() for coxph objects in the JMbayes package. Original code copied from https://github.com/drizopoulos/JMbayes/tree/master/R/prederrJM.coxph.R
 
 Edits were made so the calculation of prediction error exactly matches the prediction error equation (Eq. (26) in Davies, Galla and Coolen (2023) or, equivelently, the equation for prediction error on pg. 34 of Rizopoulos, D. (2016).  The R package JMbayes for fitting joint models for longitudinal andtime-to-event data using MCMC. Journal of Statistical Software 72(7), 1–46). 
 
